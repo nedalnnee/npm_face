@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعرف على جنسيتك</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="message">يرجى الانتظار...</h1>
+<div id="video-container">
+    <video id="video" width="720" height="560" autoplay muted></video>
+</div>
+<button id="startButton">ابدأ التعرف</button>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
